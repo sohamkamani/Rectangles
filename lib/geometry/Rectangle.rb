@@ -9,4 +9,8 @@ class Rectangle
 		2*@length + 2*@breadth
 	end
 
+	def area 
+		@length*@breadth
+	end
+	
 end

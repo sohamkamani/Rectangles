@@ -7,4 +7,8 @@ describe 'Rectangle' do
 		expect(rectangle.perimeter).to eq(14)
 	end
 
+	it "calculates the area" do 
+		expect(rectangle.area).to eq(10)
+	end
+
 end 
